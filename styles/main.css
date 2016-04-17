@@ -1,0 +1,54 @@
+ 
+
+#mainDiv {
+	width: 500px;
+	height: 500px;
+	text-align:center;
+	display:table;
+
+}
+.leftDiv {  
+	display: table-cell;
+	vertical-align: middle;
+	text-align:center;
+	width:100px; 
+	height:25px;
+}
+.middleDiv {
+	display: inline-block;
+	margin:0 auto; 
+	width:200px;
+	
+	
+} /* control priority of excess whitespace */
+.rightDiv{ 
+	display: table-cell;
+	vertical-align:middle;
+	text-align:left;
+	width:100px;
+	height:25px;
+}
+
+#upButton {
+	float:right;
+	display:block;
+
+	display:block
+	
+}
+
+#ratingLabel {
+	display:inline-block;
+	
+}
+#img {
+	
+	display:inline-block;
+
+}
+#label{
+	
+	display:inline-block;
+
+}
+/* on load - get new recommendations (update page) (update movies, update ratings) */
